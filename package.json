@@ -9,8 +9,9 @@
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.9.9",
     "vuepress": "1.9.7",
+    "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-flexsearch-pro": "^1.0.3",
     "vuepress-theme-reco": "1.6.17"
   },
-  "description": ""
+  "description": "" 
 }
