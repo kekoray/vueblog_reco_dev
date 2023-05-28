@@ -136,7 +136,7 @@ module.exports = {
   },
 
   plugins: [
-    // 谷歌统计
+    // 谷歌统计: https://analytics.google.com/analytics/web/
     [
       '@vuepress/google-analytics',
       {
