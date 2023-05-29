@@ -4,7 +4,7 @@ module.exports = {
   dest: './dist',
   head: [
     ['link', { rel: 'icon', href: '/logo.jpg' }],
-    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1' }]
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   permalink: "/:year/:month/:day/:slug", // 永久链接
   theme: 'reco',    // 主题类型
