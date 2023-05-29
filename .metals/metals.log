@@ -28,3 +28,5 @@
 2023.05.29 23:03:01 INFO  time: initialize in 0.59s
 2023.05.29 23:03:02 WARN  Build server is not auto-connectable.
 2023.05.29 23:03:02 WARN  no build tool detected in workspace 'E:\Code_Repository\vueblog_reco_dev'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+五月 29, 2023 11:10:51 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
