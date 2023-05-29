@@ -7,11 +7,17 @@
     "build": "vuepress build ."
   },
   "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.16",
     "@vuepress/plugin-google-analytics": "^1.9.9",
     "vuepress": "1.9.7",
     "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
     "vuepress-plugin-flexsearch-pro": "^1.0.3",
     "vuepress-theme-reco": "1.6.17"
   },
-  "description": "" 
+  "description": "",
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
 }
