@@ -2,7 +2,7 @@
 sidebar: false  # 是否开启侧边栏
 home: true
 heroText: KKlife
-tagline: A simple and beautiful vuepress blog theme.
+tagline: KKlife！！！！！！！！！！
 # heroImage: "/OIG.HxDKivtRg_YToizC.jpg"
 # heroImageStyle: {
 #   maxWidth: '600px',
@@ -16,18 +16,17 @@ bgImage: '/bg.svg'
 bgImageStyle: {
   height: '350px'
 }
-isShowTitleInHome: false
-actionText: Guide
-actionLink: /views/other/guide
-features:
-- title: Yesterday
-  details: 开发一款看着开心、写着顺手的 vuepress 博客主题
-- title: Today
-  details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上
-- title: Tomorrow
-  details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
+# isShowTitleInHome: false
+# actionText: Guide
+# actionLink: /views/other/guide
+# features:
+# - title: Yesterday
+#   details: 开发一款看着开心、写着顺手的 vuepress 博客主题
+# - title: Today
+#   details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上
+# - title: Tomorrow
+#   details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
 permalink: /
-date: 1995-12-31
 ---
 
 
@@ -46,15 +45,3 @@ date: 1995-12-31
 
 [![kekoray's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=kekoray&show_icons=true&theme=default#gh-light-mode-only)]()
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kekoray&layout=compact)]()
-
-
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SMESPKZ8P3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SMESPKZ8P3');
-</script>

@@ -46,6 +46,23 @@ module.exports = {
 
 
 
+    // ===========================  首页博客信息  ===========================
+    type: 'blog',
+    blogConfig: {
+      category: {
+        location: 2, // 在导航栏菜单中所占的位置，默认2
+        text: 'Category' // 默认 “分类”
+      },
+      tag: {
+        location: 3, // 在导航栏菜单中所占的位置，默认3
+        text: 'Tag' // 默认 “标签”
+      },
+      socialLinks: [     // 信息栏展示社交信息
+        { icon: 'reco-github', link: 'https://github.com/kekoray' },
+      ]
+    },
+
+
     // ===========================  导航栏  ===========================
     // icon选项：https://fontawesome.com/icons?d=gallery&m=free
     nav: [
@@ -78,31 +95,16 @@ module.exports = {
     },
 
 
-    // ===========================  首页博客信息  ===========================
-    type: 'blog',
-    blogConfig: {
-      category: {
-        location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: 'Category' // 默认 “分类”
-      },
-      tag: {
-        location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag' // 默认 “标签”
-      },
-      socialLinks: [     // 信息栏展示社交信息
-        { icon: 'reco-github', link: 'https://github.com/recoluan' },
-        { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
-      ]
-    },
+
 
 
     // ===========================  首页友链信息  ===========================
     friendLink: [
       {
-        title: '午后南杂',
+        title: 'koray',
         desc: 'Enjoy when you can, and endure when you must.',
-        email: '1156743527@qq.com',
-        link: 'https://www.recoluan.com'
+        email: 'kekoray@qq.com',
+        link: 'https://koray2021.xyz/'
       },
       {
         title: 'vuepress-theme-reco',
